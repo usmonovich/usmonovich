@@ -1,3 +1,3 @@
 # Kinematics
 
-Equations of motion, examples.
+x=x0+vt; v=v0+at.
