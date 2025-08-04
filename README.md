@@ -7,6 +7,7 @@ Welcome! Click a subject below to open its folder. Inside each folder you'll fin
 - [Math](./math/README.md)
 - [Physics](./physics/README.md)
 - [Engineering Drawing](./engineering-drawing/README.md)
+- [English](./english/README.md)
 - [Chemistry](./chemistry/README.md)
 - [Ecology](./ecology/README.md)
 - [Aviation Cartography](./aviation-cartography/README.md)
