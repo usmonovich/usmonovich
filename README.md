@@ -1,5 +1,5 @@
 # Study Repository
-[<img src="https://raw.githubusercontent.com/Raymo111/Raymo111/master/intro.gif" alt="👋 Hi there! I'm (Din(111|nd Din)|https://raymond.li)" title="👋 Hi there! I'm (Din(111|nd Din)|https://t.me/turiniann)"/>](https://t.me/turiniann)
+[<img src="https://github.com/usmonovich/usmonovich/blob/main/image_860306162047122114205.gif" alt="👋 Hi there! I'm (Din(111|nd Din)|https://github.com/usmonovich/usmonovich/blob/main/image_860306162047122114205.gif)" title="👋 Hi there! I'm (Din(111|nd Din)|https://t.me/turiniann)"/>](https://github.com/usmonovich/usmonovich/blob/main/image_860306162047122114205.gif)
 
 Welcome! Click a subject below to open its folder. Inside each folder you'll find topics as separate files.
 
