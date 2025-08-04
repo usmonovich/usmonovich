@@ -1,4 +1,3 @@
 # Physics
 
-- [Kinematics](./kinematics.md)
-- [Dynamics](./dynamics.md)
+- [Kinematics](https://physfor.github.io/book/MT.pdf)
