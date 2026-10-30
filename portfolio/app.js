@@ -20,6 +20,13 @@
     items.forEach((el) => el.classList.add('in'));
   }
 
+  // ---------- works filter ----------
+  const chips = document.querySelectorAll('.chip');
+  chips.forEach((ch) => ch.addEventListener('click', () => {
+    chips.forEach((c) => { c.classList.toggle('on', c === ch); c.setAttribute('aria-pressed', String(c === ch)); });
+    document.querySelectorAll('.work').forEach((w) => { w.hidden = ch.dataset.f !== 'all' && w.dataset.t !== ch.dataset.f; });
+  }));
+
   // ---------- WebGL iridescent raymarched blob ----------
   const canvas = document.getElementById('gl');
   const gl = canvas.getContext('webgl', { antialias: false, alpha: false, powerPreference: 'high-performance' });

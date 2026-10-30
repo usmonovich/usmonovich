@@ -99,3 +99,22 @@ h2{text-shadow:0 2px 30px #05070f}
 .card:hover{background:rgba(14,16,34,.65)}
 .card__k{color:#cfd5ee}
 h2 .irid{filter:drop-shadow(0 2px 14px #05070f)}
+
+.badge--site{background:rgba(182,155,255,.16);color:#c9b6ff}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+.chip{font:inherit;font-weight:600;font-size:.92rem;color:var(--ink);background:rgba(8,10,22,.5);border:1px solid var(--line);border-radius:999px;padding:10px 20px;min-height:44px;cursor:pointer;backdrop-filter:blur(14px);transition:.2s}
+.chip:hover{background:rgba(255,255,255,.12)}
+.chip.on{color:#05070f;border-color:transparent;background:linear-gradient(100deg,#8be9ff,#b69bff,#ff9ad5)}
+.chip:focus-visible{outline:2px solid #8be9ff;outline-offset:3px}
+.works{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.work{display:block;border-radius:24px;overflow:hidden;border:1px solid var(--line);background:rgba(8,10,22,.5);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);transition:transform .3s,border-color .3s}
+.work:hover{transform:translateY(-5px);border-color:rgba(255,255,255,.35)}
+.work[hidden]{display:none}
+.work__art{height:150px;background-size:200% 200%;animation:art 10s ease-in-out infinite alternate}
+.work__art--a{background-image:linear-gradient(120deg,#1b2a6b,#7c5cff,#00e5ff,#1b2a6b)}
+.work__art--b{background-image:linear-gradient(120deg,#ff9ad5,#b69bff,#8be9ff,#ff9ad5)}
+.work__art--c{background-image:linear-gradient(120deg,#1b4dff,#ff8a3d,#ffd48a,#1b4dff)}
+@keyframes art{to{background-position:100% 100%}}
+.work__body{padding:22px 24px 26px}
+.work__body h3{font-size:1.35rem;letter-spacing:-.03em;margin:12px 0 8px}
+.work__body p{color:#c1c8e2}
