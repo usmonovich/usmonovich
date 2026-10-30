@@ -118,3 +118,9 @@ h2 .irid{filter:drop-shadow(0 2px 14px #05070f)}
 .work__body{padding:22px 24px 26px}
 .work__body h3{font-size:1.35rem;letter-spacing:-.03em;margin:12px 0 8px}
 .work__body p{color:#c1c8e2}
+
+.lessons{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.lessons .card--big{min-height:170px}
+.signup{margin-top:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;padding:26px 28px}
+.signup p{font-size:clamp(1.05rem,2.2vw,1.35rem);font-weight:600;letter-spacing:-.01em;max-width:24em}
+@media (max-width:760px){.signup .pill{width:100%}}
