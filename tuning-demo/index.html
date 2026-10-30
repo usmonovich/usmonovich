@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VELOCE Tuning Lab — концепт сайта тюнинг-студии</title>
+<meta name="description" content="Концептуальный демо-сайт тюнинг-студии с 3D-визуализацией колеса.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="fallback" aria-hidden="true"></div>
+<div class="promo">Концептуальный демо-проект: бренд и данные вымышлены. Хотите такой сайт? <a href="https://t.me/usmonovich_uaw" target="_blank" rel="noopener">Напишите @usmonovich_uaw</a></div>
+<header class="nav">
+  <a class="logo" href="#top"><i></i>VELOCE</a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Меню"><span></span><span></span></button>
+  <nav class="links" id="nav" aria-label="Разделы"><a href="#services">Услуги</a><a href="#config">Диски</a><a href="#process">Процесс</a><a href="#faq">Вопросы</a><a class="pill pill--sm pill--main" href="#contact">Записаться</a></nav>
+</header>
+<main id="top">
+<section class="hero"><div class="hero__text">
+<p class="eyebrow reveal">Тюнинг-студия · концепт</p>
+<h1 class="reveal">Ваш автомобиль.<br><span class='grad'>Доведённый до идеала.</span></h1>
+<p class="lead reveal">Диски, подвеска, звук и внешний вид. Посмотрите, как будут выглядеть диски, прямо на сайте.</p>
+<div class="cta reveal"><a class="pill pill--main" href="#contact">Записаться</a><a class="pill" href="#services">Услуги</a></div>
+</div></section>
+
+<section class="sec" id="services"><div class="wrap"><p class="kicker reveal">01 — Услуги</p><h2 class="reveal">Всё для вашего <span class="grad">автомобиля</span></h2>
+<div class="grid"><article class="card reveal"><span class="badge">Колёса</span><h3>Диски и шины</h3><p>Подбор дисков и шин под ваш автомобиль и стиль.</p></article><article class="card reveal"><span class="badge">Подвеска</span><h3>Клиренс и управляемость</h3><p>Настройка подвески под город или трек.</p></article><article class="card reveal"><span class="badge">Мощность</span><h3>Чип-тюнинг</h3><p>Оптимизация работы двигателя после диагностики.</p></article><article class="card reveal"><span class="badge">Звук</span><h3>Выхлопные системы</h3><p>Спортивные и универсальные системы выпуска.</p></article><article class="card reveal"><span class="badge">Внешний вид</span><h3>Детейлинг и плёнки</h3><p>Полировка, защитные покрытия, оклейка.</p></article><article class="card reveal"><span class="badge">Аэродинамика</span><h3>Обвесы и оптика</h3><p>Обвесы, спойлеры и свет в едином стиле.</p></article></div></div></section>
+<section class="sec" id="config"><div class="wrap"><p class="kicker reveal">02 — Визуализация</p><h2 class="reveal">Выберите цвет <span class="grad">дисков</span></h2>
+<div class="card reveal"><div class="conf" role="group" aria-label="Цвет дисков">
+<button class="chip on" aria-pressed="true" data-c="0.80,0.82,0.86" data-n="Серебро">Серебро</button>
+<button class="chip" aria-pressed="false" data-c="0.16,0.17,0.20" data-n="Графит">Графит</button>
+<button class="chip" aria-pressed="false" data-c="0.95,0.72,0.28" data-n="Золото">Золото</button>
+<button class="chip" aria-pressed="false" data-c="0.92,0.12,0.14" data-n="Красный">Красный</button>
+<button class="chip" aria-pressed="false" data-c="0.10,0.38,0.95" data-n="Синий">Синий</button></div>
+<p class="hint">Выбрано: <b id="chipLabel">Серебро</b>. Диск на экране вращается в реальном времени, потяните мышь или проведите пальцем, чтобы посмотреть с другой стороны. Это условная визуализация.</p></div></div></section>
+<section class="sec" id="process"><div class="wrap"><p class="kicker reveal">03 — Процесс</p><h2 class="reveal">Как мы <span class="grad">работаем</span></h2>
+<ol class="steps"><li class="reveal"><b>01</b><h3>Консультация</h3><p>Обсуждаем автомобиль, задачи и бюджет.</p></li><li class="reveal"><b>02</b><h3>Проект</h3><p>Согласовываем состав работ и визуализацию.</p></li><li class="reveal"><b>03</b><h3>Установка</h3><p>Выполняем работы и проверяем результат вместе с вами.</p></li><li class="reveal"><b>04</b><h3>Обслуживание</h3><p>Условия сопровождения обсуждаются заранее.</p></li></ol></div></section>
+<section class="sec" id="faq"><div class="wrap" style="max-width:760px"><p class="kicker reveal">04 — Вопросы</p><h2 class="reveal">Частые <span class="grad">вопросы</span></h2>
+<details class="reveal"><summary>Сколько стоят работы?</summary><p>Стоимость считается индивидуально после осмотра автомобиля. В реальном проекте здесь будут ваши условия.</p></details><details class="reveal"><summary>Нужно ли записываться заранее?</summary><p>Да, запись помогает подготовить детали и время работ.</p></details><details class="reveal"><summary>Можно ли подобрать комплект под мой автомобиль?</summary><p>Да, напишите марку, модель и год выпуска.</p></details></div></section>
+<section class="sec cta-sec" id="contact"><div class="wrap wrap--n"><p class="kicker reveal">05 — Контакты</p><h2 class="reveal">Обсудим ваш <span class="grad">проект</span></h2>
+<div class="cta reveal"><a class="pill pill--main" href="https://t.me/your_username" target="_blank" rel="noopener">Написать в Telegram</a></div>
+<p class="note reveal">Ссылка-заглушка: в реальном проекте здесь контакты вашей студии.</p></div></section>
+</main>
+<footer class="foot"><p>© 2026 VELOCE Tuning Lab · вымышленный бренд для демонстрации</p><a href="#top">Наверх ↑</a></footer>
+<script src="app.js"></script>
+</body>
+</html>

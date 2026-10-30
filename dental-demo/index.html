@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lumina Dental — концепт сайта стоматологии</title>
+<meta name="description" content="Концептуальный демо-сайт стоматологической клиники с 3D-зубом.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="fallback" aria-hidden="true"></div>
+<div class="promo">Концептуальный демо-проект: бренд и данные вымышлены. Хотите такой сайт? <a href="https://t.me/usmonovich_uaw" target="_blank" rel="noopener">Напишите @usmonovich_uaw</a></div>
+<header class="nav">
+  <a class="logo" href="#top"><i></i>LUMINA</a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Меню"><span></span><span></span></button>
+  <nav class="links" id="nav" aria-label="Разделы"><a href="#services">Услуги</a><a href="#shade">Эмаль</a><a href="#process">Приём</a><a href="#faq">Вопросы</a><a class="pill pill--sm pill--main" href="#contact">Записаться</a></nav>
+</header>
+<main id="top">
+<section class="hero"><div class="hero__text">
+<p class="eyebrow reveal">Стоматология · концепт</p>
+<h1 class="reveal">Улыбка, которой<br><span class='grad'>вы будете гордиться.</span></h1>
+<p class="lead reveal">Современная клиника: лечение, имплантация, ортодонтия и профилактика. Запись в один клик.</p>
+<div class="cta reveal"><a class="pill pill--main" href="#contact">Записаться</a><a class="pill" href="#services">Услуги</a></div>
+</div></section>
+
+<section class="sec" id="services"><div class="wrap"><p class="kicker reveal">01 — Услуги</p><h2 class="reveal">Забота о каждом <span class="grad">зубе</span></h2>
+<div class="grid"><article class="card reveal"><span class="badge">Лечение</span><h3>Терапия</h3><p>Лечение кариеса и профилактика осложнений.</p></article><article class="card reveal"><span class="badge">Восстановление</span><h3>Имплантация</h3><p>Восстановление зубов после консультации и диагностики.</p></article><article class="card reveal"><span class="badge">Прикус</span><h3>Ортодонтия</h3><p>Брекеты и элайнеры для детей и взрослых.</p></article><article class="card reveal"><span class="badge">Эстетика</span><h3>Отбеливание</h3><p>Профессиональное осветление эмали.</p></article><article class="card reveal"><span class="badge">Дети</span><h3>Детская стоматология</h3><p>Спокойный приём и дружелюбная атмосфера.</p></article><article class="card reveal"><span class="badge">Профилактика</span><h3>Гигиена</h3><p>Профессиональная чистка и рекомендации по уходу.</p></article></div></div></section>
+<section class="sec" id="shade"><div class="wrap"><p class="kicker reveal">02 — Визуализация</p><h2 class="reveal">Оттенок <span class="grad">эмали</span></h2>
+<div class="card reveal"><div class="conf" role="group" aria-label="Оттенок эмали">
+<button class="chip" aria-pressed="false" data-c="0.94,0.88,0.76" data-n="Естественный">Естественный</button>
+<button class="chip" aria-pressed="false" data-c="0.97,0.93,0.84" data-n="Светлее">Светлее</button>
+<button class="chip on" aria-pressed="true" data-c="0.99,0.97,0.93" data-n="Светлый">Светлый</button>
+<button class="chip" aria-pressed="false" data-c="1.0,1.0,1.0" data-n="Очень светлый">Очень светлый</button></div>
+<p class="hint">Выбрано: <b id="chipLabel">Светлый</b>. Это условная 3D-визуализация, а не обещание результата: реальный оттенок определяет врач после осмотра.</p></div></div></section>
+<section class="sec" id="process"><div class="wrap"><p class="kicker reveal">03 — Приём</p><h2 class="reveal">Как проходит <span class="grad">лечение</span></h2>
+<ol class="steps"><li class="reveal"><b>01</b><h3>Консультация</h3><p>Осмотр и обсуждение ваших целей.</p></li><li class="reveal"><b>02</b><h3>План лечения</h3><p>Понятный план с этапами и сроками.</p></li><li class="reveal"><b>03</b><h3>Лечение</h3><p>Работаем бережно, объясняем каждый шаг.</p></li><li class="reveal"><b>04</b><h3>Контроль</h3><p>Рекомендации по уходу и повторный осмотр.</p></li></ol></div></section>
+<section class="sec" id="faq"><div class="wrap" style="max-width:760px"><p class="kicker reveal">04 — Вопросы</p><h2 class="reveal">Частые <span class="grad">вопросы</span></h2>
+<details class="reveal"><summary>Больно ли лечить зубы?</summary><p>Врач подбирает обезболивание индивидуально и объясняет ход лечения. В реальном проекте здесь будут ваши условия.</p></details><details class="reveal"><summary>Как записаться на приём?</summary><p>Напишите в Telegram, подберём удобное время.</p></details><details class="reveal"><summary>Сколько стоит консультация?</summary><p>Стоимость указывается в прайсе клиники. В этом демо цены не показаны.</p></details></div></section>
+<section class="sec cta-sec" id="contact"><div class="wrap"><p class="kicker reveal">05 — Запись</p><h2 class="reveal">Запишитесь на <span class="grad">консультацию</span></h2>
+<div class="cta reveal"><a class="pill pill--main" href="https://t.me/your_username" target="_blank" rel="noopener">Записаться в Telegram</a></div>
+<p class="note reveal">Ссылка-заглушка: в реальном проекте здесь контакты вашей клиники.</p></div></section>
+</main>
+<footer class="foot"><p>© 2026 Lumina Dental · вымышленный бренд для демонстрации</p><a href="#top">Наверх ↑</a></footer>
+<script src="app.js"></script>
+</body>
+</html>

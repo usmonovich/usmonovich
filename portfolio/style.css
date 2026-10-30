@@ -124,3 +124,6 @@ h2 .irid{filter:drop-shadow(0 2px 14px #05070f)}
 .signup{margin-top:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;padding:26px 28px}
 .signup p{font-size:clamp(1.05rem,2.2vw,1.35rem);font-weight:600;letter-spacing:-.01em;max-width:24em}
 @media (max-width:760px){.signup .pill{width:100%}}
+
+.work__art--d{background-image:linear-gradient(120deg,#05060d,#19d3ff,#ff2d95,#05060d)}
+.work__art--e{background-image:linear-gradient(120deg,#06222b,#7cf2e6,#8fc7ff,#06222b)}
