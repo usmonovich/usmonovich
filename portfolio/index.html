@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Husniddin — авиационная инженерия · Ташкент</title>
+<meta name="description" content="Husniddin: студент авиационной инженерии TTPU, цель — пилот гражданской авиации. Проекты, контакты, Telegram @usmonovich_uaw.">
+<meta name="theme-color" content="#05070f">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="fallback" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="nav__logo" href="#top" aria-label="Husniddin — наверх">H<span>.</span></a>
+  <nav class="nav__links" aria-label="Разделы">
+    <a href="#about">О себе</a>
+    <a href="#projects">Проекты</a>
+    <a href="#path">Путь</a>
+  </nav>
+  <a class="pill pill--sm" href="#contact">Связаться</a>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero__text">
+      <p class="eyebrow reveal">Авиационная инженерия · Ташкент</p>
+      <h1 class="reveal"><span class="irid">Husniddin</span></h1>
+      <p class="lead reveal">Студент авиационной инженерии. Строю проекты для студентов и иду к штурвалу гражданской авиации.</p>
+      <div class="cta reveal">
+        <a class="pill pill--main" href="https://t.me/usmonovich_uaw" target="_blank" rel="noopener">Написать в Telegram</a>
+        <a class="pill pill--ghost" href="tel:+998910943694">Позвонить</a>
+      </div>
+    </div>
+    <a class="scroll" href="#about" aria-label="Листать вниз"><span></span></a>
+  </section>
+
+  <section class="sec" id="about">
+    <div class="wrap">
+      <p class="kicker reveal">01 — О себе</p>
+      <h2 class="reveal">Инженер по образованию, <span class="irid">пилот по цели</span></h2>
+      <p class="big reveal">Учусь на втором курсе авиационной инженерии в Туринском политехническом университете в Ташкенте (TTPU). Физика, математика и технические дисциплины — моя ежедневная работа. Цель — стать пилотом гражданской авиации.</p>
+      <div class="facts">
+        <div class="card reveal"><span class="card__k">Университет</span><strong>TTPU, Ташкент</strong></div>
+        <div class="card reveal"><span class="card__k">Направление</span><strong>Авиационная инженерия</strong></div>
+        <div class="card reveal"><span class="card__k">Цель</span><strong>Пилот гражданской авиации</strong></div>
+        <div class="card reveal"><span class="card__k">Увлечения</span><strong>Авиация, Formula Student, AI-инструменты</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="projects">
+    <div class="wrap">
+      <p class="kicker reveal">02 — Проекты</p>
+      <h2 class="reveal">Что я <span class="irid">делаю</span></h2>
+      <div class="projects">
+        <article class="card card--big reveal">
+          <span class="badge">Telegram</span>
+          <h3>Курс на небо</h3>
+          <p>Канал, который рассказывает абитуриентам о жизни и учёбе в TTPU.</p>
+        </article>
+        <article class="card card--big reveal">
+          <span class="badge">Telegram</span>
+          <h3>Учебный архив потока</h3>
+          <p>Материалы по предметам для моего потока и группа с новостями об экзаменах и пересдачах.</p>
+        </article>
+        <article class="card card--big reveal">
+          <span class="badge badge--dev">В разработке</span>
+          <h3>UTC Preparation</h3>
+          <p>Приложение для подготовки: физика по собственным лекционным конспектам и раздел математики.</p>
+        </article>
+        <article class="card card--big reveal">
+          <span class="badge badge--dev">В работе</span>
+          <h3>Aviation Shorts</h3>
+          <p>Англоязычный аккаунт с короткими видео об авиации и науке.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="path">
+    <div class="wrap">
+      <p class="kicker reveal">03 — Путь</p>
+      <h2 class="reveal">Курс — <span class="irid">на небо</span></h2>
+      <ol class="path">
+        <li class="reveal"><span class="path__n">Сейчас</span><h3>Инженерная база</h3><p>Физика, математика и профильные дисциплины в TTPU.</p></li>
+        <li class="reveal"><span class="path__n">Дальше</span><h3>Лётное обучение</h3><p>Английский для авиации и подготовка к лётной карьере.</p></li>
+        <li class="reveal"><span class="path__n">Цель</span><h3>Пилот гражданской авиации</h3><p>Соединить инженерное мышление и работу в кабине.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec sec--contact" id="contact">
+    <div class="wrap wrap--narrow">
+      <p class="kicker reveal">04 — Контакты</p>
+      <h2 class="reveal">Давайте <span class="irid">на связи</span></h2>
+      <div class="contact">
+        <a class="card contact__item reveal" href="https://t.me/usmonovich_uaw" target="_blank" rel="noopener">
+          <span class="card__k">Telegram</span><strong>@usmonovich_uaw</strong>
+        </a>
+        <a class="card contact__item reveal" href="tel:+998910943694">
+          <span class="card__k">Телефон</span><strong>+998 91 094 36 94</strong>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>© 2026 Husniddin · Ташкент</p>
+  <a href="#top">Наверх ↑</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
