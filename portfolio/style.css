@@ -85,3 +85,17 @@ h2{text-shadow:0 2px 30px #05070f}
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .js .reveal{opacity:1;transform:none}
 }
+
+.card--big{display:block}
+.go{display:inline-block;margin-top:18px;font-weight:600;color:#8be9ff;font-size:.95rem}
+.card--big:hover .go{letter-spacing:.01em}
+.contact{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.wrap--narrow{max-width:900px}
+.contact__item{padding:24px}
+.contact__item strong{font-size:clamp(1.05rem,2vw,1.35rem);overflow-wrap:anywhere}
+.wrap--narrow{max-width:960px}
+.contact{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:rgba(8,10,22,.5)}
+.card:hover{background:rgba(14,16,34,.65)}
+.card__k{color:#cfd5ee}
+h2 .irid{filter:drop-shadow(0 2px 14px #05070f)}
